@@ -1,0 +1,104 @@
+body {
+    background-color: rgba(206, 247, 247, 0.445);
+    padding: 0px;
+    margin: 0px;
+
+    /* overflow: hidden; */
+    /* Hide scrollbars */
+}
+
+
+#navbar {
+    font-weight: bold;
+    display: inline-block;
+    /* width: 300px; */
+    /* border: 2px solid black; */
+    font-size: 18px;
+
+}
+
+#navbar li {
+    list-style: none;
+    display: inline-flex;
+    padding: 3px;
+    margin: 15px;
+}
+
+#navbar li a {
+    text-decoration: none;
+    color: rgb(69, 71, 53);
+    display: none;
+}
+
+#navbar li a:hover {
+
+    color: rgb(172, 206, 207);
+}
+
+Aside {
+    height: 100vh;
+    width: 30%;
+    background-color: rgba(83, 74, 209, 0.767);
+    float: right;
+    border-left: 4px solid red;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+
+#square {
+    height: 275px;
+    width: 275px;
+    background-color: red;
+    transform: rotate(45deg);
+    float: right;
+    margin-top: 245px;
+    margin-right: -139px;
+
+}
+#pimg{
+    /* display: none; */
+    width: 200px;
+}
+
+#square img {
+    /* width: 255px; */
+    transform: rotate(317deg);
+    margin-bottom: 3px;
+    width: 293px;
+    transform: rotate(317deg);
+    margin-left: -9px;
+    /* display: none; */
+}
+
+
+
+#main-content {
+
+
+    margin-top: 250px;
+    margin-left: 100px;
+    height: 100%;
+    width: 100%;
+
+}
+
+#para {
+    display: none;
+}
+
+.name {
+    font-size: 0px;
+}
+
+.hello {
+    font-size: 200px;
+}
+
+
+
+   /* About Section */
+
+   
+  

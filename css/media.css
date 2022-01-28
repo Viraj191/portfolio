@@ -1,0 +1,68 @@
+@media only screen and (max-width: 800px) {
+
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    body {
+        background-color: rgba(206, 247, 247, 0.445);
+        padding: 0px;
+        margin: 0px;
+
+        overflow: hidden;
+        /* Hide scrollbars */
+    }
+
+    #navbar {
+        margin-top: 15px;
+    }
+
+
+    #navbar li {
+        margin: 3px;
+        padding: 7px;
+        font-size: 15px;
+        display: inline-flex;
+
+    }
+
+
+    Aside {
+        /* height: 100vh;
+        width: 30%;
+        background-color: rgba(83, 74, 209, 0.767);
+        float: right;
+        border-left: 4px solid red;
+        margin: 0px;
+        padding: 0px; */
+        display: none;
+    }
+
+    #square {
+        /* width: 100px;
+        height: 100px;
+        margin-right: -51px; */
+        display: none;
+       
+    
+        
+    }
+
+     #none{
+         display: inherit;
+     }
+
+    #main-content {
+        /* border: 2px solid black; */
+
+
+        margin: 250px auto;
+       width: 70%;
+      
+      
+    }
+    #pimg{
+        display: inline-block;
+    }
+}
