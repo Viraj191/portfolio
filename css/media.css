@@ -44,25 +44,21 @@
         height: 100px;
         margin-right: -51px; */
         display: none;
-       
-    
         
     }
 
-     #none{
-         display: inherit;
-     }
+   #rimg{
+      display: block;
+       width: 200px;
+       margin: 50px auto;
+   }
 
     #main-content {
-        /* border: 2px solid black; */
-
-
-        margin: 250px auto;
-       width: 70%;
-      
-      
+        margin: 15px auto;
+       width: 70%;  
     }
-    #pimg{
-        display: inline-block;
+  
+    .hello {
+        font-size: 100px;
     }
 }

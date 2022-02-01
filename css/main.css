@@ -96,6 +96,11 @@ Aside {
     font-size: 200px;
 }
 
+#rimg{
+   width: 0px;
+   display: none;
+}
+
 
 
    /* About Section */
