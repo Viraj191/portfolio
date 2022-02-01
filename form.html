@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <style>
+        body {
+            background-color: rgb(255, 255, 255);
+            padding: 0px;
+            margin: 0px;
+            background-image: radial-gradient(rgba(99, 180, 194, 0.459),rgba(130, 214, 203, 0.637),rgba(137, 214, 219, 0.281),rgba(0, 225, 255, 0.336));
+            text-align: center;
+           display: none;
+        }
+        #firstspan{
+            font-weight: bolder;
+            margin-left: 150px;
+            color: #1e8c27;
+
+        }
+        h1{
+            text-align: center;
+        }
+
+        #success {
+            color: green;
+            margin: 20px;
+            display: none;
+        }
+
+        #wrapper {
+            width: 80%;
+            border: 2px solid gray;
+            margin: 25px auto;
+           border-radius: 10px;
+           background-color: rgba(157, 201, 214, 0.13);
+            
+        }
+
+        .form-element {
+            padding: 5px;
+            margin: 10px;
+
+        }
+
+        .position {
+            margin-left: 25px;
+        }
+
+        label {
+            margin: 10px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        input{
+            padding: 5px;
+            font-size: 15px;
+            border-radius: 8px;
+       
+        }
+       
+
+        #submitButton {
+            margin: 10px 20px 20px;
+            padding: 5px 15px 5px 15px 10px;
+            font-size: 15px;
+            cursor: pointer;
+           width: 200px;
+           align-self: center;
+        }
+        #navbar a{
+            display: none;
+        }
+
+
+        @media only screen and (max-width: 800px) {
+
+            .position {
+            margin-right: 25px;
+            }
+
+        }
+    </style>
+
+<script src="Js/jquery.min.js"></script>
+   
+
+</head>
+
+<body>
+
+
+
+    <ul id="navbar">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#About">About</a></li>
+        <li><a href="#portfollio">Portfollio</a></li>
+        <li><a href="form.html">Heire Me</a></li>
+
+    </ul>
+
+    <div id="wrapper">
+
+        <span id="firstspan"><h1>Let's Get Connected</h1></span>
+
+        <hr>
+
+        <div id="success">Congratulations! submitted Sussfully.</div>
+        <div id="error"></div>
+
+        <div class="form-element">
+            <label for="name">Name :</label>
+            <input type="text" placeholder="Enter Your Name" class="position" id="hw">
+        </div>
+
+        <div class="form-element">
+            <label for="phone">Telephone :</label>
+            <input type="text" placeholder="0123456789" id="hw">
+        </div>
+
+        <div class="form-element">
+            <label for="email">Email :</label>
+            <input type="email" placeholder="abc@gmail.com" class="position" id="hw">
+        </div>
+
+        <div class="form-element">
+            <label for="email">Github link:</label>
+            <input type="text" placeholder="Https://github.io/name" id="hw">
+        </div>
+
+        <div class="form-element">
+            <label for="email">Gender :</label>
+            <label for="">Male</label>
+            <input type="radio" name="gender">
+            <label for="">Femail</label>
+            <input type="radio" name="gender">
+        </div>
+
+        
+
+        <div class="form-element">
+          <span>Accept our Terms And Conditions</span>
+           <input type="checkbox">
+           <!-- <span> | Can We Sen You Email Regarding To any Updates</span>
+           <input type="checkbox"> -->
+        </div>
+
+        <input type="submit" value="Next" id="submitButton" class="next">
+
+
+    </div>
+
+
+
+
+    <script>
+        $("a").fadeIn(2000)
+          $("body").fadeIn(1000)
+
+        $("#submitButton").click(function(){
+            alert("Response Recorded!")
+    });
+    </script>
+
+
+
+
+</body>
+
+</html>
